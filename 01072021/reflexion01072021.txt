@@ -1,0 +1,6 @@
+
+Reflexión respecto al tema de la sesión:  
+
+se inicia el desarrollo de los diagramas de clases
+diagramas de secuencias, diagramas de casos de uso
+
