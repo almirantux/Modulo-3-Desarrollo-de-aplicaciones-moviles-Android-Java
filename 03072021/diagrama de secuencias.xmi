@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI timestamp="2021-07-03T22:00:10" xmlns:UML="http://schema.omg.org/spec/UML/1.4" xmi.version="1.2" verified="false">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.17</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel href="UML.xml" xmi.name="UML" xmi.version="1.4"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isLeaf="false" xmi.id="m1" name="Modelo UML" isRoot="false" isSpecification="false" isAbstract="false">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype visibility="public" isLeaf="false" xmi.id="folder" name="folder" isRoot="false" namespace="m1" isSpecification="false" isAbstract="false"/>
+    <UML:Model visibility="public" isLeaf="false" xmi.id="Logical_View" name="Logical View" isRoot="false" namespace="m1" isSpecification="false" isAbstract="false">
+     <UML:Namespace.ownedElement>
+      <UML:Package visibility="public" isLeaf="false" xmi.id="Datatypes" name="Datatypes" isRoot="false" namespace="Logical_View" stereotype="folder" isSpecification="false" isAbstract="false">
+       <UML:Namespace.ownedElement>
+        <UML:DataType visibility="public" isLeaf="false" xmi.id="ucHsw9ZIxvzMM" name="char" isRoot="false" namespace="Datatypes" isSpecification="false" isAbstract="false"/>
+        <UML:DataType visibility="public" isLeaf="false" xmi.id="uSYXWiscFHwbY" name="int" isRoot="false" namespace="Datatypes" isSpecification="false" isAbstract="false"/>
+        <UML:DataType visibility="public" isLeaf="false" xmi.id="ucOWOVT0BYZ2Y" name="float" isRoot="false" namespace="Datatypes" isSpecification="false" isAbstract="false"/>
+        <UML:DataType visibility="public" isLeaf="false" xmi.id="uQGIpi5DAmd8Q" name="double" isRoot="false" namespace="Datatypes" isSpecification="false" isAbstract="false"/>
+        <UML:DataType visibility="public" isLeaf="false" xmi.id="uV9mgXijtbR6U" name="bool" isRoot="false" namespace="Datatypes" isSpecification="false" isAbstract="false"/>
+        <UML:DataType visibility="public" isLeaf="false" xmi.id="uYsdZxrzXHJcW" name="string" isRoot="false" namespace="Datatypes" isSpecification="false" isAbstract="false"/>
+        <UML:DataType visibility="public" isLeaf="false" xmi.id="uoPjKA1g7LtbO" name="unsigned char" isRoot="false" namespace="Datatypes" isSpecification="false" isAbstract="false"/>
+        <UML:DataType visibility="public" isLeaf="false" xmi.id="u2w9LhAcqbFJa" name="signed char" isRoot="false" namespace="Datatypes" isSpecification="false" isAbstract="false"/>
+        <UML:DataType visibility="public" isLeaf="false" xmi.id="uUKbzZzoTYxVX" name="unsigned int" isRoot="false" namespace="Datatypes" isSpecification="false" isAbstract="false"/>
+        <UML:DataType visibility="public" isLeaf="false" xmi.id="uDfFUJfhTrx8X" name="signed int" isRoot="false" namespace="Datatypes" isSpecification="false" isAbstract="false"/>
+        <UML:DataType visibility="public" isLeaf="false" xmi.id="uS0n2tgOdqxUq" name="short int" isRoot="false" namespace="Datatypes" isSpecification="false" isAbstract="false"/>
+        <UML:DataType visibility="public" isLeaf="false" xmi.id="uAS7GyfHXIQx8" name="unsigned short int" isRoot="false" namespace="Datatypes" isSpecification="false" isAbstract="false"/>
+        <UML:DataType visibility="public" isLeaf="false" xmi.id="uSTNLmYYBiCis" name="signed short int" isRoot="false" namespace="Datatypes" isSpecification="false" isAbstract="false"/>
+        <UML:DataType visibility="public" isLeaf="false" xmi.id="uwnMQHggY9xAN" name="long int" isRoot="false" namespace="Datatypes" isSpecification="false" isAbstract="false"/>
+        <UML:DataType visibility="public" isLeaf="false" xmi.id="us2AKbolSJAr9" name="signed long int" isRoot="false" namespace="Datatypes" isSpecification="false" isAbstract="false"/>
+        <UML:DataType visibility="public" isLeaf="false" xmi.id="uVKdj05Zq7J3S" name="unsigned long int" isRoot="false" namespace="Datatypes" isSpecification="false" isAbstract="false"/>
+        <UML:DataType visibility="public" isLeaf="false" xmi.id="uhWMrM5ODUnet" name="long double" isRoot="false" namespace="Datatypes" isSpecification="false" isAbstract="false"/>
+        <UML:DataType visibility="public" isLeaf="false" xmi.id="uUKTmHwXKRp27" name="wchar_t" isRoot="false" namespace="Datatypes" isSpecification="false" isAbstract="false"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Class visibility="public" isLeaf="false" xmi.id="u2WTmBzBqnHMb" name="Gestor de Usurio" isRoot="false" namespace="Logical_View" isSpecification="false" isAbstract="false"/>
+      <UML:Class visibility="public" isLeaf="false" xmi.id="ujrMxFa03U9VQ" name="Interfaz" isRoot="false" namespace="Logical_View" isSpecification="false" isAbstract="false"/>
+      <UML:Class visibility="public" isLeaf="false" xmi.id="uvf0YKPca4QRq" name="Usuario" isRoot="false" namespace="Logical_View" isSpecification="false" isAbstract="false"/>
+      <UML:Class visibility="public" isLeaf="false" xmi.id="uuukxM0py0tQy" name="Ingreso de Datos" isRoot="false" namespace="Logical_View" isSpecification="false" isAbstract="false"/>
+      <UML:Class visibility="public" isLeaf="false" xmi.id="ulLOJvUCv3ky9" name="Base de datos" isRoot="false" namespace="Logical_View" isSpecification="false" isAbstract="false"/>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams resolution="96">
+       <diagram showscope="1" showops="1" showattribassocs="1" type="1" snapx="25" isopen="0" showattsig="1" backgroundcolor="#ffffff" zoom="100" name="diagrama de clases" linecolor="#ff0000" canvaswidth="0" localid="-1" showatts="1" snapcsgrid="0" showgrid="0" xmi.id="uLhh0Ut7Dhmhz" documentation="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" textcolor="#000000" showpackage="1" snapgrid="0" griddotcolor="#d3d3d3" fillcolor="#ffff00" usefillcolor="1" canvasheight="0" showpubliconly="0" snapy="25" linewidth="0" showstereotype="1" showopsig="1">
+        <widgets/>
+        <messages/>
+        <associations/>
+       </diagram>
+       <diagram showscope="1" showops="1" showattribassocs="1" type="3" snapx="25" isopen="1" showattsig="1" backgroundcolor="#ffffff" zoom="86" name="diagrama de secuencia" linecolor="#ff0000" canvaswidth="803" localid="-1" showatts="1" snapcsgrid="0" showgrid="0" xmi.id="udd99cWNYlmgP" autoincrementsequence="0" documentation="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" textcolor="#000000" showpackage="1" snapgrid="0" griddotcolor="#d3d3d3" fillcolor="#ffff00" usefillcolor="1" canvasheight="256" showpubliconly="0" snapy="25" linewidth="0" showstereotype="1" showopsig="1">
+        <widgets>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="uPfV6PMJ1gFD8" height="19" xmi.id="urZjzwn6AT0Nw" usesdiagramfillcolor="0" pretext="" x="-102" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="313" showstereotype="1" linewidth="0" width="73" text="Ingreso OK"/>
+         <objectwidget decon="0" usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uQA2izAGYxL6h" drawasactor="0" height="25" instancename="Usuario" multipleinstance="0" xmi.id="uvf0YKPca4QRq" usesdiagramfillcolor="1" x="-205" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="#000000" autoresize="0" fillcolor="none" usefillcolor="1" y="105" linewidth="0" width="109" showstereotype="1"/>
+         <objectwidget decon="0" usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uA9GQ3ZIaxgHT" drawasactor="0" height="25" multipleinstance="0" xmi.id="ujrMxFa03U9VQ" usesdiagramfillcolor="1" x="37.45" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="#000000" autoresize="1" fillcolor="none" usefillcolor="1" y="80" showstereotype="1" linewidth="0" width="65"/>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="u2qH3eWu9s7Z6" height="19" xmi.id="urZjzwn6AT0Nw" usesdiagramfillcolor="0" pretext="" x="164" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="244" showstereotype="1" linewidth="0" width="73" text="Ingreso OK"/>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="ujQgD7jzQE8Km" height="19" xmi.id="ugk4k59G5vwNt" usesdiagramfillcolor="0" pretext="" x="76" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="179" showstereotype="1" linewidth="0" width="115" text="Autentificacion ok"/>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="u8q4CVMkkvA4p" height="19" xmi.id="urZjzwn6AT0Nw" usesdiagramfillcolor="0" pretext="" x="-102" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="313" showstereotype="1" linewidth="0" width="73" text="Ingreso OK"/>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="uNogZ9ICjwlWG" height="19" xmi.id="urZjzwn6AT0Nw" usesdiagramfillcolor="0" pretext="" x="437" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="264" showstereotype="1" linewidth="0" width="73" text="Ingreso OK"/>
+         <objectwidget decon="0" usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uJMf8gd97IuAP" drawasactor="0" height="25" multipleinstance="0" xmi.id="uuukxM0py0tQy" usesdiagramfillcolor="1" x="317" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="#000000" autoresize="1" fillcolor="none" usefillcolor="1" y="80" showstereotype="1" linewidth="0" width="119"/>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="u9WUXO1hdnSin" height="19" xmi.id="urZjzwn6AT0Nw" usesdiagramfillcolor="0" pretext="" x="437" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="264" showstereotype="1" linewidth="0" width="73" text="Ingreso OK"/>
+         <objectwidget decon="0" usesdiagramusefillcolor="1" linecolor="#ff0000" localid="u6SfThwerjezH" drawasactor="0" height="25" multipleinstance="0" xmi.id="u2WTmBzBqnHMb" usesdiagramfillcolor="1" x="153" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="#000000" autoresize="1" fillcolor="none" usefillcolor="1" y="80" showstereotype="1" linewidth="0" width="118"/>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="u8iF8tNaOjuAI" height="19" xmi.id="ugk4k59G5vwNt" usesdiagramfillcolor="0" pretext="" x="76" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="179" showstereotype="1" linewidth="0" width="115" text="Autentificacion ok"/>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="ufgTcSy3NmpMd" height="19" xmi.id="urZjzwn6AT0Nw" usesdiagramfillcolor="0" pretext="" x="164" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="244" showstereotype="1" linewidth="0" width="73" text="Ingreso OK"/>
+         <objectwidget decon="0" usesdiagramusefillcolor="1" linecolor="#ff0000" localid="ux5KVdKCGAjJt" drawasactor="0" height="25" multipleinstance="0" xmi.id="ulLOJvUCv3ky9" usesdiagramfillcolor="1" x="483" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="#000000" autoresize="0" fillcolor="none" usefillcolor="1" y="80" showstereotype="1" linewidth="0" width="115"/>
+        </widgets>
+        <messages>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="uA9GQ3ZIaxgHT" linecolor="#ff0000" localid="u1bSlCZ1vrzaW" widgetaid="uQA2izAGYxL6h" height="28" xmi.id="uAMgwoWCm6gTN" usesdiagramfillcolor="1" x="-150" textid="ukrqa8RZfMe93" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="288" showstereotype="1" linewidth="0" width="227" seqnum="4" operation="Ingreso de datos">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uVhOzcQW0yirj" height="19" xmi.id="ukrqa8RZfMe93" usesdiagramfillcolor="1" pretext="" x="-82" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="269" showstereotype="1" linewidth="0" width="120" text="Ingreso de datos"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="uA9GQ3ZIaxgHT" linecolor="#ff0000" localid="uY81YpvAAodfh" widgetaid="uQA2izAGYxL6h" height="60" xmi.id="uTOcHFv4FmJGl" usesdiagramfillcolor="1" x="-150" textid="u0KdCiQSJWUSI" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="133" showstereotype="1" linewidth="0" width="227" seqnum="1" operation="Autentificación">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="u2yaeaYXKLlb0" height="19" xmi.id="u0KdCiQSJWUSI" usesdiagramfillcolor="1" pretext="" x="-73" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="114" showstereotype="1" linewidth="0" width="111" text="Autentificación"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="uJMf8gd97IuAP" linecolor="#ff0000" localid="uRt95yiT4hlGC" widgetaid="uA9GQ3ZIaxgHT" height="29" xmi.id="uJ3crQc9FRAy1" usesdiagramfillcolor="1" x="69" textid="uoeXsZmeWPXcb" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="240" showstereotype="1" linewidth="0" width="315" seqnum="5" operation="Ingreso de datos">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uxNDehjtE7P76" height="19" xmi.id="uoeXsZmeWPXcb" usesdiagramfillcolor="1" pretext="" x="78" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="221" showstereotype="1" linewidth="0" width="120" text="Ingreso de datos"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="uA9GQ3ZIaxgHT" linecolor="#ff0000" localid="uBl1USlz8bXSC" widgetaid="uQA2izAGYxL6h" height="60" xmi.id="uTOcHFv4FmJGl" usesdiagramfillcolor="1" x="-150" textid="uJ0bUVQza8zWg" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="133" showstereotype="1" linewidth="0" width="227" seqnum="1" operation="Autentificación">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uvF2K6icIcEiu" height="19" xmi.id="uJ0bUVQza8zWg" usesdiagramfillcolor="1" pretext="" x="-73" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="114" showstereotype="1" linewidth="0" width="111" text="Autentificación"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="u6SfThwerjezH" linecolor="#ff0000" localid="u9ISmAd5VmruK" widgetaid="uA9GQ3ZIaxgHT" height="26" xmi.id="uUy81XuaPeF9h" usesdiagramfillcolor="1" x="69" textid="uL08djiS7FY67" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="175" showstereotype="1" linewidth="0" width="151" seqnum="2" operation="Autentificación">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uSk76xgxBMJN5" height="19" xmi.id="uL08djiS7FY67" usesdiagramfillcolor="1" pretext="" x="78" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="156" showstereotype="1" linewidth="0" width="111" text="Autentificación"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="uJMf8gd97IuAP" linecolor="#ff0000" localid="uJJRtcNsOKryF" widgetaid="uA9GQ3ZIaxgHT" height="29" xmi.id="uJ3crQc9FRAy1" usesdiagramfillcolor="1" x="69" textid="uPCD8vUP2tCKK" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="240" showstereotype="1" linewidth="0" width="315" seqnum="5" operation="Ingreso de datos">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="ubNLY8zV0n5Ai" height="19" xmi.id="uPCD8vUP2tCKK" usesdiagramfillcolor="1" pretext="" x="78" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="221" showstereotype="1" linewidth="0" width="120" text="Ingreso de datos"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="ux5KVdKCGAjJt" linecolor="#ff0000" localid="u4D51Wj9CzTKE" widgetaid="uJMf8gd97IuAP" height="20" xmi.id="uBx2aLa3wCXMk" usesdiagramfillcolor="1" x="376" textid="uYOgtLQrxxDqn" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="1" fillcolor="none" usefillcolor="1" y="248" showstereotype="1" linewidth="0" width="172" seqnum="6" operation="Ingreso de datos">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uzyXYtUe2JKmS" height="19" xmi.id="uYOgtLQrxxDqn" usesdiagramfillcolor="1" pretext="" x="381" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="229" showstereotype="1" linewidth="0" width="120" text="Ingreso de datos"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="uA9GQ3ZIaxgHT" linecolor="#ff0000" localid="u2T0ogBB3NixF" widgetaid="uQA2izAGYxL6h" height="28" xmi.id="uAMgwoWCm6gTN" usesdiagramfillcolor="1" x="-150" textid="uYSGVsXuo87f6" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="288" showstereotype="1" linewidth="0" width="227" seqnum="4" operation="Ingreso de datos">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="u3Dd0cv9BdBZs" height="19" xmi.id="uYSGVsXuo87f6" usesdiagramfillcolor="1" pretext="" x="-82" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="269" showstereotype="1" linewidth="0" width="120" text="Ingreso de datos"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="ux5KVdKCGAjJt" linecolor="#ff0000" localid="uyVrqUra3Ogwu" widgetaid="uJMf8gd97IuAP" height="20" xmi.id="uBx2aLa3wCXMk" usesdiagramfillcolor="1" x="376" textid="u0UCPGMufuCH4" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="1" fillcolor="none" usefillcolor="1" y="248" showstereotype="1" linewidth="0" width="172" seqnum="6" operation="Ingreso de datos">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uU7sh9oe1UofB" height="19" xmi.id="u0UCPGMufuCH4" usesdiagramfillcolor="1" pretext="" x="381" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="229" showstereotype="1" linewidth="0" width="120" text="Ingreso de datos"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="u6SfThwerjezH" linecolor="#ff0000" localid="uzNJEI84jdR3u" widgetaid="uA9GQ3ZIaxgHT" height="26" xmi.id="uUy81XuaPeF9h" usesdiagramfillcolor="1" x="69" textid="uJd3S1O6Ebldu" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="175" showstereotype="1" linewidth="0" width="151" seqnum="2" operation="Autentificación">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uEjdXPnB6HBlX" height="19" xmi.id="uJd3S1O6Ebldu" usesdiagramfillcolor="1" pretext="" x="78" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="156" showstereotype="1" linewidth="0" width="111" text="Autentificación"/>
+         </messagewidget>
+        </messages>
+        <associations/>
+       </diagram>
+       <diagram showscope="1" showops="1" showattribassocs="1" type="3" snapx="25" isopen="1" showattsig="1" backgroundcolor="#ffffff" zoom="100" name="diagrama de secuencia nutricionista" linecolor="#ff0000" canvaswidth="846" localid="-1" showatts="1" snapcsgrid="0" showgrid="0" xmi.id="uwWIT3U9rIkch" autoincrementsequence="0" documentation="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" textcolor="#000000" showpackage="1" snapgrid="0" griddotcolor="#d3d3d3" fillcolor="#ffff00" usefillcolor="1" canvasheight="256" showpubliconly="0" snapy="25" linewidth="0" showstereotype="1" showopsig="1">
+        <widgets>
+         <objectwidget decon="0" usesdiagramusefillcolor="1" linecolor="#ff0000" localid="u6fw0xdSdkncc" drawasactor="0" height="25" multipleinstance="0" xmi.id="ulLOJvUCv3ky9" usesdiagramfillcolor="1" x="483" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="#000000" autoresize="0" fillcolor="none" usefillcolor="1" y="80" showstereotype="1" linewidth="0" width="115"/>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="uCv2FKickFiQz" height="19" xmi.id="urZjzwn6AT0Nw" usesdiagramfillcolor="0" pretext="" x="164" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="244" showstereotype="1" linewidth="0" width="73" text="Ingreso OK"/>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="uBgWNFF9owCK4" height="19" xmi.id="urZjzwn6AT0Nw" usesdiagramfillcolor="0" pretext="" x="437" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="264" showstereotype="1" linewidth="0" width="73" text="Ingreso OK"/>
+         <objectwidget decon="0" usesdiagramusefillcolor="1" linecolor="#ff0000" localid="utz4zy16nHzK9" drawasactor="0" height="25" multipleinstance="0" xmi.id="ujrMxFa03U9VQ" usesdiagramfillcolor="1" x="37.45" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="#000000" autoresize="1" fillcolor="none" usefillcolor="1" y="80" showstereotype="1" linewidth="0" width="65"/>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="uCpbZ7uSz0tgo" height="19" xmi.id="urZjzwn6AT0Nw" usesdiagramfillcolor="0" pretext="" x="164" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="244" showstereotype="1" linewidth="0" width="73" text="Ingreso OK"/>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="u3PQ0Lh3yVPaH" height="19" xmi.id="ugk4k59G5vwNt" usesdiagramfillcolor="0" pretext="" x="76" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="179" showstereotype="1" linewidth="0" width="115" text="Autentificacion ok"/>
+         <objectwidget decon="0" usesdiagramusefillcolor="1" linecolor="#ff0000" localid="urElQ5O5xi02S" drawasactor="0" height="25" multipleinstance="0" xmi.id="u2WTmBzBqnHMb" usesdiagramfillcolor="1" x="153" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="#000000" autoresize="1" fillcolor="none" usefillcolor="1" y="80" showstereotype="1" linewidth="0" width="118"/>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="uC0zVEp8xgpTk" height="19" xmi.id="ugk4k59G5vwNt" usesdiagramfillcolor="0" pretext="" x="76" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="179" showstereotype="1" linewidth="0" width="115" text="Autentificacion ok"/>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="ubR9jw3I2TnXU" height="19" xmi.id="urZjzwn6AT0Nw" usesdiagramfillcolor="0" pretext="" x="-102" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="313" showstereotype="1" linewidth="0" width="73" text="Ingreso OK"/>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="uRe90m2Ajo4g6" height="19" xmi.id="urZjzwn6AT0Nw" usesdiagramfillcolor="0" pretext="" x="-102" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="313" showstereotype="1" linewidth="0" width="73" text="Ingreso OK"/>
+         <objectwidget decon="0" usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uylJye800aCsV" drawasactor="0" height="25" multipleinstance="0" xmi.id="uuukxM0py0tQy" usesdiagramfillcolor="1" x="317" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="#000000" autoresize="1" fillcolor="none" usefillcolor="1" y="80" showstereotype="1" linewidth="0" width="119"/>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="u6gYVNg23MOBh" height="19" xmi.id="urZjzwn6AT0Nw" usesdiagramfillcolor="0" pretext="" x="437" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="264" showstereotype="1" linewidth="0" width="73" text="Ingreso OK"/>
+         <objectwidget decon="0" usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uiruFW6PHiVf0" drawasactor="0" height="25" instancename="Nutricionista" multipleinstance="0" xmi.id="uvf0YKPca4QRq" usesdiagramfillcolor="1" x="-248" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="#000000" autoresize="0" fillcolor="none" usefillcolor="1" y="105" linewidth="0" width="171" showstereotype="1"/>
+        </widgets>
+        <messages>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="urElQ5O5xi02S" linecolor="#ff0000" localid="uMDHk53jnLrXG" widgetaid="utz4zy16nHzK9" height="26" xmi.id="uUy81XuaPeF9h" usesdiagramfillcolor="1" x="69" textid="uw7SpvNzKYnZI" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="175" showstereotype="1" linewidth="0" width="151" seqnum="2" operation="Autentificación">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="ufYe4qhOBGna3" height="19" xmi.id="uw7SpvNzKYnZI" usesdiagramfillcolor="1" pretext="" x="78" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="156" showstereotype="1" linewidth="0" width="111" text="Autentificación"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="utz4zy16nHzK9" linecolor="#ff0000" localid="uBgwDb4En3vb3" widgetaid="uiruFW6PHiVf0" height="28" xmi.id="uAMgwoWCm6gTN" usesdiagramfillcolor="1" x="-162" textid="uWkAMmnL1S30C" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="288" showstereotype="1" linewidth="0" width="239" seqnum="4" operation="Ingreso de datos">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uIGOVKbQD7qDZ" height="19" xmi.id="uWkAMmnL1S30C" usesdiagramfillcolor="1" pretext="" x="-82" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="269" showstereotype="1" linewidth="0" width="120" text="Ingreso de datos"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="utz4zy16nHzK9" linecolor="#ff0000" localid="uu04acU0VeW82" widgetaid="uiruFW6PHiVf0" height="60" xmi.id="uTOcHFv4FmJGl" usesdiagramfillcolor="1" x="-162" textid="utcbnR575dkvF" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="133" showstereotype="1" linewidth="0" width="239" seqnum="1" operation="Autentificación">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="umQ8YGxnevpNf" height="19" xmi.id="utcbnR575dkvF" usesdiagramfillcolor="1" pretext="" x="-73" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="114" showstereotype="1" linewidth="0" width="111" text="Autentificación"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="u6fw0xdSdkncc" linecolor="#ff0000" localid="uDMm3Q4Sy9SDY" widgetaid="uylJye800aCsV" height="20" xmi.id="uBx2aLa3wCXMk" usesdiagramfillcolor="1" x="376" textid="uJA4866axNSjL" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="1" fillcolor="none" usefillcolor="1" y="248" showstereotype="1" linewidth="0" width="172" seqnum="6" operation="Ingreso de datos">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="u7XI41thlgzEF" height="19" xmi.id="uJA4866axNSjL" usesdiagramfillcolor="1" pretext="" x="381" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="229" showstereotype="1" linewidth="0" width="120" text="Ingreso de datos"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="urElQ5O5xi02S" linecolor="#ff0000" localid="u4kiYdxsit0IK" widgetaid="utz4zy16nHzK9" height="26" xmi.id="uUy81XuaPeF9h" usesdiagramfillcolor="1" x="69" textid="u9RazxF6Zjq8Q" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="175" showstereotype="1" linewidth="0" width="151" seqnum="2" operation="Autentificación">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uUONuxLOB5guG" height="19" xmi.id="u9RazxF6Zjq8Q" usesdiagramfillcolor="1" pretext="" x="78" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="156" showstereotype="1" linewidth="0" width="111" text="Autentificación"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="uylJye800aCsV" linecolor="#ff0000" localid="uT82yOx0MyUJp" widgetaid="utz4zy16nHzK9" height="29" xmi.id="uJ3crQc9FRAy1" usesdiagramfillcolor="1" x="69" textid="uIgwNaAOzIswj" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="240" showstereotype="1" linewidth="0" width="315" seqnum="5" operation="Ingreso de datos">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="u9QL1NCnxYnuw" height="19" xmi.id="uIgwNaAOzIswj" usesdiagramfillcolor="1" pretext="" x="78" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="221" showstereotype="1" linewidth="0" width="120" text="Ingreso de datos"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="utz4zy16nHzK9" linecolor="#ff0000" localid="uRQzCE0vcxTee" widgetaid="uiruFW6PHiVf0" height="60" xmi.id="uTOcHFv4FmJGl" usesdiagramfillcolor="1" x="-162" textid="u9DxkO7lPeTEt" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="133" showstereotype="1" linewidth="0" width="239" seqnum="1" operation="Autentificación">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="ujVH8xtkSsgfv" height="19" xmi.id="u9DxkO7lPeTEt" usesdiagramfillcolor="1" pretext="" x="-73" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="114" showstereotype="1" linewidth="0" width="111" text="Autentificación"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="u6fw0xdSdkncc" linecolor="#ff0000" localid="uKeb22b2ACAJw" widgetaid="uylJye800aCsV" height="20" xmi.id="uBx2aLa3wCXMk" usesdiagramfillcolor="1" x="376" textid="uV0OLXWO7appu" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="1" fillcolor="none" usefillcolor="1" y="248" showstereotype="1" linewidth="0" width="172" seqnum="6" operation="Ingreso de datos">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uYr9BFw8jZkzb" height="19" xmi.id="uV0OLXWO7appu" usesdiagramfillcolor="1" pretext="" x="381" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="229" showstereotype="1" linewidth="0" width="120" text="Ingreso de datos"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="utz4zy16nHzK9" linecolor="#ff0000" localid="uPR7xYKzQCZMu" widgetaid="uiruFW6PHiVf0" height="28" xmi.id="uAMgwoWCm6gTN" usesdiagramfillcolor="1" x="-162" textid="u0EEhqMkP6nCg" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="288" showstereotype="1" linewidth="0" width="239" seqnum="4" operation="Ingreso de datos">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uHNQhcQD2w4hh" height="19" xmi.id="u0EEhqMkP6nCg" usesdiagramfillcolor="1" pretext="" x="-82" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="269" showstereotype="1" linewidth="0" width="120" text="Ingreso de datos"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="uylJye800aCsV" linecolor="#ff0000" localid="uIzfC3rnzFJiv" widgetaid="utz4zy16nHzK9" height="29" xmi.id="uJ3crQc9FRAy1" usesdiagramfillcolor="1" x="69" textid="uUYq3xBIGZSVH" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="240" showstereotype="1" linewidth="0" width="315" seqnum="5" operation="Ingreso de datos">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uldR65Zjp4UcH" height="19" xmi.id="uUYq3xBIGZSVH" usesdiagramfillcolor="1" pretext="" x="78" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="221" showstereotype="1" linewidth="0" width="120" text="Ingreso de datos"/>
+         </messagewidget>
+        </messages>
+        <associations/>
+       </diagram>
+       <diagram showscope="1" showops="1" showattribassocs="1" type="3" snapx="25" isopen="1" showattsig="1" backgroundcolor="#ffffff" zoom="100" name="diagrama de secuencia ver publicacion" linecolor="#ff0000" canvaswidth="803" localid="-1" showatts="1" snapcsgrid="0" showgrid="0" xmi.id="udYhzCYzx8v3N" autoincrementsequence="0" documentation="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" textcolor="#000000" showpackage="1" snapgrid="0" griddotcolor="#d3d3d3" fillcolor="#ffff00" usefillcolor="1" canvasheight="256" showpubliconly="0" snapy="25" linewidth="0" showstereotype="1" showopsig="1">
+        <widgets>
+         <objectwidget decon="0" usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uTnSv0517N7EE" drawasactor="0" height="25" multipleinstance="0" xmi.id="ulLOJvUCv3ky9" usesdiagramfillcolor="1" x="483" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="#000000" autoresize="0" fillcolor="none" usefillcolor="1" y="80" showstereotype="1" linewidth="0" width="115"/>
+         <objectwidget decon="0" usesdiagramusefillcolor="1" linecolor="#ff0000" localid="u9rOVWhECM2Ft" drawasactor="0" height="25" multipleinstance="0" xmi.id="u2WTmBzBqnHMb" usesdiagramfillcolor="1" x="153" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="#000000" autoresize="1" fillcolor="none" usefillcolor="1" y="80" showstereotype="1" linewidth="0" width="118"/>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="uUR1xZ0ScWZFn" height="19" xmi.id="urZjzwn6AT0Nw" usesdiagramfillcolor="0" pretext="" x="162" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="269" showstereotype="1" linewidth="0" width="125" text="entrega Publicacion"/>
+         <objectwidget decon="0" usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uk0cxjSTv9m4t" drawasactor="0" height="25" multipleinstance="0" xmi.id="ujrMxFa03U9VQ" usesdiagramfillcolor="1" x="37.45" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="#000000" autoresize="1" fillcolor="none" usefillcolor="1" y="80" showstereotype="1" linewidth="0" width="65"/>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="uAn7gl2tqPeyF" height="19" xmi.id="ugk4k59G5vwNt" usesdiagramfillcolor="0" pretext="" x="95" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="181" showstereotype="1" linewidth="0" width="115" text="Autentificacion ok"/>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="uCC1OnLfnLjsP" height="19" xmi.id="urZjzwn6AT0Nw" usesdiagramfillcolor="0" pretext="" x="-107" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="274" showstereotype="1" linewidth="0" width="140" text="Despliega Informacion"/>
+         <objectwidget decon="0" usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uGJEKufWnRrn3" drawasactor="0" height="25" multipleinstance="0" xmi.id="uuukxM0py0tQy" usesdiagramfillcolor="1" x="317" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="#000000" autoresize="1" fillcolor="none" usefillcolor="1" y="80" showstereotype="1" linewidth="0" width="119"/>
+         <floatingtext usesdiagramusefillcolor="0" linecolor="#ff0000" localid="uBfphetCb5L9c" height="19" xmi.id="urZjzwn6AT0Nw" usesdiagramfillcolor="0" pretext="" x="398" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="700" textcolor="#000000" autoresize="1" fillcolor="#ffff00" usefillcolor="1" y="265" showstereotype="1" linewidth="0" width="125" text="entrega Publicacion"/>
+         <objectwidget decon="0" usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uzVkfMVmxLTE7" drawasactor="0" height="25" instancename="Usuario" multipleinstance="0" xmi.id="uvf0YKPca4QRq" usesdiagramfillcolor="1" x="-205" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="#000000" autoresize="0" fillcolor="none" usefillcolor="1" y="105" linewidth="0" width="109" showstereotype="1"/>
+        </widgets>
+        <messages>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="u9rOVWhECM2Ft" linecolor="#ff0000" localid="uQRRloT85qyM4" widgetaid="uk0cxjSTv9m4t" height="26" xmi.id="uUy81XuaPeF9h" usesdiagramfillcolor="1" x="69" textid="u6WS6kOSB6QKO" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="159" showstereotype="1" linewidth="0" width="151" seqnum="2" operation="Autentificación">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uiRvVdnrT4asC" height="19" xmi.id="u6WS6kOSB6QKO" usesdiagramfillcolor="1" pretext="" x="78" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="140" showstereotype="1" linewidth="0" width="111" text="Autentificación"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="uk0cxjSTv9m4t" linecolor="#ff0000" localid="u74KGaau4r2by" widgetaid="uzVkfMVmxLTE7" height="60" xmi.id="uTOcHFv4FmJGl" usesdiagramfillcolor="1" x="-150" textid="u9VA2p8AlYK7c" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="133" showstereotype="1" linewidth="0" width="227" seqnum="1" operation="Autentificación">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uEsM2JdKxCbOH" height="19" xmi.id="u9VA2p8AlYK7c" usesdiagramfillcolor="1" pretext="" x="-73" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="114" showstereotype="1" linewidth="0" width="111" text="Autentificación"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="uTnSv0517N7EE" linecolor="#ff0000" localid="uT0lm1z1tZvhx" widgetaid="uGJEKufWnRrn3" height="20" xmi.id="uBx2aLa3wCXMk" usesdiagramfillcolor="1" x="376" textid="uvse3wxcF5BA7" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="1" fillcolor="none" usefillcolor="1" y="249" showstereotype="1" linewidth="0" width="172" seqnum="6" operation="Solicita Publicacion">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="ubGMDpJkZuPfj" height="19" xmi.id="uvse3wxcF5BA7" usesdiagramfillcolor="1" pretext="" x="389" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="230" showstereotype="1" linewidth="0" width="134" text="Solicita Publicacion"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="uk0cxjSTv9m4t" linecolor="#ff0000" localid="utt7uwxHsHvzz" widgetaid="uzVkfMVmxLTE7" height="28" xmi.id="uAMgwoWCm6gTN" usesdiagramfillcolor="1" x="-150" textid="uQvzleXGL2Zd3" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="250" showstereotype="1" linewidth="0" width="227" seqnum="4" operation="Solicita Publicacion">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uTWNELkU8sHFQ" height="19" xmi.id="uQvzleXGL2Zd3" usesdiagramfillcolor="1" pretext="" x="-97" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="231" showstereotype="1" linewidth="0" width="134" text="Solicita Publicacion"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="uGJEKufWnRrn3" linecolor="#ff0000" localid="uGQQ0vdeTaQsF" widgetaid="uk0cxjSTv9m4t" height="29" xmi.id="uJ3crQc9FRAy1" usesdiagramfillcolor="1" x="69" textid="uDRo9Jz4fVvGP" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="243" showstereotype="1" linewidth="0" width="315" seqnum="5" operation="Solicita Publicacion">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="u2sQOXaGKj4wZ" height="19" xmi.id="uDRo9Jz4fVvGP" usesdiagramfillcolor="1" pretext="" x="76" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="224" showstereotype="1" linewidth="0" width="134" text="Solicita Publicacion"/>
+         </messagewidget>
+         <messagewidget usesdiagramusefillcolor="1" widgetbid="uk0cxjSTv9m4t" linecolor="#ff0000" localid="uOuetpmGH5zXa" widgetaid="uzVkfMVmxLTE7" height="60" xmi.id="uTOcHFv4FmJGl" usesdiagramfillcolor="1" x="-150" textid="uL0MP1hTxl41Q" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" textcolor="none" sequencemessagetype="1000" autoresize="0" fillcolor="none" usefillcolor="1" y="133" showstereotype="1" linewidth="0" width="227" seqnum="1" operation="Autentificación">
+          <floatingtext usesdiagramusefillcolor="1" linecolor="#ff0000" localid="uiZEVJnxtBvry" height="19" xmi.id="uL0MP1hTxl41Q" usesdiagramfillcolor="1" pretext="" x="-73" posttext="" font="Ubuntu,10,-1,5,50,0,0,0,0,0" isinstance="0" role="704" textcolor="none" autoresize="1" fillcolor="none" usefillcolor="1" y="114" showstereotype="1" linewidth="0" width="111" text="Autentificación"/>
+         </messagewidget>
+        </messages>
+        <associations/>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model visibility="public" isLeaf="false" xmi.id="Use_Case_View" name="Use Case View" isRoot="false" namespace="m1" isSpecification="false" isAbstract="false">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isLeaf="false" xmi.id="Component_View" name="Component View" isRoot="false" namespace="m1" isSpecification="false" isAbstract="false">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isLeaf="false" xmi.id="Deployment_View" name="Deployment View" isRoot="false" namespace="m1" isSpecification="false" isAbstract="false">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isLeaf="false" xmi.id="Entity_Relationship_Model" name="Entity Relationship Model" isRoot="false" namespace="m1" isSpecification="false" isAbstract="false">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings documentation="" uniqueid="uDRo9Jz4fVvGP" viewid="udd99cWNYlmgP"/>
+  <listview>
+   <listitem open="1" id="Views" type="800">
+    <listitem open="1" id="Entity_Relationship_Model" type="836"/>
+    <listitem open="1" id="Use_Case_View" type="802"/>
+    <listitem open="1" id="Component_View" type="821"/>
+    <listitem open="1" id="Deployment_View" type="827"/>
+    <listitem open="1" id="Logical_View" type="801">
+     <listitem open="1" id="ulLOJvUCv3ky9" type="813"/>
+     <listitem open="0" id="uLhh0Ut7Dhmhz" label="diagrama de clases" type="807"/>
+     <listitem open="0" id="udd99cWNYlmgP" label="diagrama de secuencia" type="810"/>
+     <listitem open="0" id="uwWIT3U9rIkch" label="diagrama de secuencia nutricionista" type="810"/>
+     <listitem open="0" id="udYhzCYzx8v3N" label="diagrama de secuencia ver publicacion" type="810"/>
+     <listitem open="1" id="u2WTmBzBqnHMb" type="813"/>
+     <listitem open="1" id="uuukxM0py0tQy" type="813"/>
+     <listitem open="1" id="ujrMxFa03U9VQ" type="813"/>
+     <listitem open="0" id="Datatypes" type="830">
+      <listitem open="0" id="uV9mgXijtbR6U" type="829"/>
+      <listitem open="0" id="ucHsw9ZIxvzMM" type="829"/>
+      <listitem open="0" id="uQGIpi5DAmd8Q" type="829"/>
+      <listitem open="0" id="ucOWOVT0BYZ2Y" type="829"/>
+      <listitem open="0" id="uSYXWiscFHwbY" type="829"/>
+      <listitem open="0" id="uhWMrM5ODUnet" type="829"/>
+      <listitem open="0" id="uwnMQHggY9xAN" type="829"/>
+      <listitem open="0" id="uS0n2tgOdqxUq" type="829"/>
+      <listitem open="0" id="u2w9LhAcqbFJa" type="829"/>
+      <listitem open="0" id="uDfFUJfhTrx8X" type="829"/>
+      <listitem open="0" id="us2AKbolSJAr9" type="829"/>
+      <listitem open="0" id="uSTNLmYYBiCis" type="829"/>
+      <listitem open="0" id="uYsdZxrzXHJcW" type="829"/>
+      <listitem open="0" id="uoPjKA1g7LtbO" type="829"/>
+      <listitem open="0" id="uUKbzZzoTYxVX" type="829"/>
+      <listitem open="0" id="uVKdj05Zq7J3S" type="829"/>
+      <listitem open="0" id="uAS7GyfHXIQx8" type="829"/>
+      <listitem open="0" id="uUKTmHwXKRp27" type="829"/>
+     </listitem>
+     <listitem open="1" id="uvf0YKPca4QRq" type="813"/>
+    </listitem>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="C++"/>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>
