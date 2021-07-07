@@ -1,0 +1,5 @@
+
+Reflexión respecto al tema de la sesión:  
+
+comence con el desarrollo en android studio de la aplicacion, aprendiendo los diferentes aspectos que se involucran en la programacion
+
