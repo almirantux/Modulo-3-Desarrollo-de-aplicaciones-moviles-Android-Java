@@ -1,0 +1,4 @@
+
+Reflexión respecto al tema de la sesión:  
+
+hoy se estudie como usar recyclerview-cardview
