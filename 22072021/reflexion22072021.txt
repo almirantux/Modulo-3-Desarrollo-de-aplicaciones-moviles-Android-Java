@@ -1,0 +1,4 @@
+
+Reflexión respecto al tema de la sesión:  
+se trabajo en que la aplicacion realice cambio entre layout
+
