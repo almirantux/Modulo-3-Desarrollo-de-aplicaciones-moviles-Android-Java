@@ -1,0 +1,4 @@
+
+Reflexión respecto al tema de la sesión:  
+se conecto a github , y se creo un branch
+https://github.com/almirantux/QCH/tree/pulento
