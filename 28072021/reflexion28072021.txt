@@ -1,0 +1,6 @@
+
+Reflexión respecto al tema de la sesión:  
+
+se ejecutan pruebas para utilizar la libreria Picasso
+
+
