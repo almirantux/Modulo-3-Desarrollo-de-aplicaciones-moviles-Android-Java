@@ -1,0 +1,5 @@
+
+Reflexión respecto al tema de la sesión:   
+
+
+Se procede a cambiar ImagenButton por ImageView
