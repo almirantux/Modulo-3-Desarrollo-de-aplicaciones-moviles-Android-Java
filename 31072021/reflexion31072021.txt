@@ -1,0 +1,4 @@
+
+Reflexión respecto al tema de la sesión:   
+se agrego un WebView, Listener
+logrando de esta forma mostrar una web desde la aplicacion
